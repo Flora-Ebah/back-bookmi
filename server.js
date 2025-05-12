@@ -16,7 +16,7 @@ const app = express();
 
 // Configuration CORS
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'https://agence-talent.vercel.app/',
+  origin: process.env.CORS_ORIGIN || 'https://agence-talent.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'x-requested-with'],
   credentials: true
