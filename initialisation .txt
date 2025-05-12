@@ -1,0 +1,23 @@
+# Créer le dossier du projet
+mkdir bookmi-backend
+cd bookmi-backend
+
+# Initialiser le projet Node.js
+npm init -y
+
+# Installer les dépendances principales
+npm install express mongoose dotenv 
+
+# Installer les dépendances pour le téléchargement d'images
+npm install multer
+
+# Installer les dépendances de développement
+npm install --save-dev nodemon
+
+# Créer la structure de base du projet
+mkdir config controllers models routes middlewares uploads
+
+# Créer les fichiers principaux
+touch .env server.js .gitignore
+
+npm install jsonwebtoken bcrypt mongoose-unique-validator
